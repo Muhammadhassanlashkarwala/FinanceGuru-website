@@ -15,8 +15,8 @@ function App() {
       <header className="text-gray-600 body-font">
     <div className="container mx-auto flex flex-wrap p-5 px-12 flex-col md:flex-row items-center">
       <a className="flex title-font px-12 font-medium items-center text-gray-900 mb-4 md:mb-0">
-      <img src={headerImage} alt="" className='w-10 h-10 ' />
-        <span className="ml-3 text-xl cursor-pointer">Landing-page</span>
+      <img src={headerImage} alt="logo-image" className='w-8 h-8 ' />
+        <span className="ml-3 text-xl cursor-pointer">FinanceGuru</span>
       </a>
       <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
         <a className="mr-5 hover:text-gray-900 cursor-pointer">Home</a>
@@ -76,13 +76,11 @@ function App() {
   <section className="text-gray-600 body-font">
     <div className="container px-5 py-24 mx-auto">
       <h1 className="sm:text-3xl text-2xl font-medium title-font text-center text-gray-900 mb-20">
-        Raw Denim Heirloom Man Braid
-        <br className="hidden sm:block" />
-        Selfies Wayfarers
+       Finance Guru Features
       </h1>
-      <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+      <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6 pl-20">
         <div className="p-4 md:w-1/3 flex">
-          <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0">
+          <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-blue-500 mb-4 flex-shrink-0">
             <svg
               fill="none"
               stroke="currentColor"
@@ -97,15 +95,14 @@ function App() {
           </div>
           <div className="flex-grow pl-6">
             <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
-              Shooting Stars
+              Budgeting
             </h2>
             <p className="leading-relaxed text-base">
-              Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-              taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh
-              mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge
-              tilde.
+             Set monthly budgets and stick to them 
+             <br className="hidden lg:inline-block" />
+             to save more.
             </p>
-            <a className="mt-3 text-indigo-500 inline-flex items-center">
+            <a className="mt-3 text-blue-500 inline-flex items-center">
               Learn More
               <svg
                 fill="none"
@@ -122,7 +119,7 @@ function App() {
           </div>
         </div>
         <div className="p-4 md:w-1/3 flex">
-          <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0">
+          <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-blue-500 mb-4 flex-shrink-0">
             <svg
               fill="none"
               stroke="currentColor"
@@ -139,15 +136,14 @@ function App() {
           </div>
           <div className="flex-grow pl-6">
             <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
-              The Catalyzer
+              Expense Tracking
             </h2>
             <p className="leading-relaxed text-base">
-              Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-              taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh
-              mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge
-              tilde.
+            Easily track yoyur daily expenses and see
+            <br className="hidden lg:inline-block" />
+             where your money goes.
             </p>
-            <a className="mt-3 text-indigo-500 inline-flex items-center">
+            <a className="mt-3 text-blue-500 inline-flex items-center">
               Learn More
               <svg
                 fill="none"
@@ -164,7 +160,7 @@ function App() {
           </div>
         </div>
         <div className="p-4 md:w-1/3 flex">
-          <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0">
+          <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-blue-500 mb-4 flex-shrink-0">
             <svg
               fill="none"
               stroke="currentColor"
@@ -180,15 +176,14 @@ function App() {
           </div>
           <div className="flex-grow pl-6">
             <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
-              Neptune
+              Financial Goals 
             </h2>
             <p className="leading-relaxed text-base">
-              Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-              taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh
-              mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge
-              tilde.
+              Set and achieve your financial goals with
+              <br className="hidden lg:inline-block" />
+               personalized tips and insights.
             </p>
-            <a className="mt-3 text-indigo-500 inline-flex items-center">
+            <a className="mt-3 text-blue-500 inline-flex items-center">
               Learn More
               <svg
                 fill="none"
@@ -207,6 +202,10 @@ function App() {
       </div>
     </div>
   </section>
+
+
+{/* Testimonial Section */}
+
 
 
 
