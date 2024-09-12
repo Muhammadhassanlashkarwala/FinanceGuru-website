@@ -15,8 +15,7 @@ function App() {
 {/* Header Section */}
   <Header />
      
-
-  {/* Hero Section */}
+{/* Hero Section */}
   
   <section className="text-gray-600 body-font">
     <div className="container mx-auto flex px-10 py-24 md:flex-row flex-col items-center">
@@ -48,17 +47,14 @@ function App() {
     </div>
   </section>
  
-  {/* Features Section */}
+{/* Features Section */}
      <Feature />
 
 {/* Testimonial Section */}
    <Testimonial />
 
-
-
 {/* Footer Section */}
-     
-<Footer />
+     <Footer />
 
     </>
   )
