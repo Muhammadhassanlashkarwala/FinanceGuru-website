@@ -1,5 +1,3 @@
-
-
 function Testimonial(params) {
     
 return(

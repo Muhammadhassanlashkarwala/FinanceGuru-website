@@ -1,6 +1,3 @@
-
-
-
 function Footer(params) {
    
 return(
