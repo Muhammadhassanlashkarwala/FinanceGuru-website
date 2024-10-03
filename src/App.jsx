@@ -8,11 +8,14 @@ import Footer from './assets/Components.jsx/Footer.jsx'
 
 function App() {
 
+  const user = {
+    islogin : true,
+  }
 
   return (
     <>
 {/* Header Section */}
-  <Header />
+  <Header user={user} />
      
 {/* Hero Section */}
  <Hero />
